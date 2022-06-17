@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  body{
+    
+    justify-items: center;
+    align-items: center;
+
+  }
+  section{
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    background: url(bg-intro-desktop.png) repeat center center fixed;
+    background-color: hsl(0, 100%, 74%);
+    justify-items: center;
+    align-items: center;
+    padding: 100px;
+  }
+  .info{
+    position: relative;
+    color: #fff;
+    font-size:16px;
+    justify-items: left;
+    margin: 100px 100px ;
+  }
+.info h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.container {
+   height: auto;
+   margin: auto;
+    width: 100%;
+    position: relative;
+    padding-right: 40px;
+    }
+.container .promo{
+    position: relative;
+    width: 100%;
+    background: #1F1F8B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+     text-align: center;
+     color: white;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+     border: none;
+    padding: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+form{
+    position: relative;
+    width: 100%;
+    padding: 28px;
+    border-radius: 12px;
+    display: block;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    margin: auto;
+}
+.form-group {
+    margin-bottom: 14px;
+    position: relative;
+    width: 100%;
+    }
+
+.form-group input {
+    padding: 12px 40px 12px 20px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #A9A9A9 ;
+    width: 100%;
+}
+.form-group.error input{
+    border-color: red;
+}
+
+.form-group svg{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    visibility: hidden;
+  }
+  .form-group.error svg{
+    color: red;
+    visibility: visible;
+}
+
+  .form-group small{
+    position: relative;
+    left: 300px;
+    bottom: 0;
+    visibility: hidden;
+    
+  }
+  .form-group.error small{
+    color: red;
+    visibility: visible;
+}
+  .form-group svg{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .btn-submit{
+    width: 100%;
+    background: hsl(120, 54%, 42%);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    font-size: 16px;
+  }
+   .terms{
+       margin-top: 10px;
+      font-size: 11px;
+      text-align: center;
+  }
+  span{
+      color: #db3434;
+  }
